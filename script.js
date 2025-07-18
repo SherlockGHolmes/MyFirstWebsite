@@ -25,6 +25,10 @@ setBtn.addEventListener('click', () => {
         outputTxt.innerText = "hello Dani! igen, ez az én weboldalam, sherlock g holmesé!";
         inputTxt.value = '';
     }
+    else if (inputValue === 'dani rl') {
+        outputTxt.innerText = "upsz, nem lesz rl mert dani fél h jobb vagyok nála!";
+        inputTxt.value = '';
+    }
     else {
         outputTxt.innerText = inputValue;
         inputTxt.value = '';
