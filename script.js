@@ -21,8 +21,14 @@ setBtn.addEventListener('click', () => {
         outputTxt.innerText = "ir valamit az input mezőbe!";
 
     }
+    else if (inputValue === 'dani' || inputValue === 'Dani') {
+        outputTxt.innerText = "hello Dani! igen, ez az én weboldalam, sherlock g holmesé!";
+        inputTxt.value = '';
+    }
     else {
         outputTxt.innerText = inputValue;
         inputTxt.value = '';
+
     }
+
 })
